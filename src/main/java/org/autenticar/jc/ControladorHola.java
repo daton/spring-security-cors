@@ -19,7 +19,7 @@ public class ControladorHola {
     public Estatus hola(){
         System.out.println("se lelvo a cabo la autenticacion");
 
-       // System.out.println("estatusito "+SecurityContextHolder.getContext().getAuthentication().getPrincipal());
+        System.out.println("estatusito "+SecurityContextHolder.getContext().getAuthentication().getPrincipal());
       Estatus estatus=new Estatus();
 
 
