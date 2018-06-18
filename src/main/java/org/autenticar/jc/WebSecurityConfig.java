@@ -48,7 +48,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and().httpBasic().and().csrf().disable();
 
              //   .formLogin();
-       // http.cors();
+        http.cors(); //Este es para que acepte los origenes cruzados en la autenticación
     }
 
     @Bean
